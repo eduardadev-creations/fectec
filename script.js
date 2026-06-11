@@ -85,7 +85,7 @@ const cardapioSemana13 = {
 
         lanche: {
             nome: "Macarronada e suco de manga",
-            foto: "/img/macarronada.jpg"     }
+            foto: "/img/macarronada.jpg"     
     }
 };
 
