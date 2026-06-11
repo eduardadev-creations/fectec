@@ -62,41 +62,34 @@
 
 
     <!-- Feedback a-->
-    <section>
-        <a href="#feedback">Deixe seu feedback...</a>
-    </section>
-    <!-- Página do feedback-->
-    <section id="feedback">
-        <h2>Feedback</h2>
-        <div class="cards">
-                <h3>Tempo de espera</h3>
-                <p class="cinza">Qual foi o tempo de espera?</p>
-                <div class="card">Bom</div>
-                <div class="card">Regular</div>
-                <div class="card">Ruim</div>
-                <div class="card">Péssimo</div>
-            
-                <h3>Qualidade</h3>
-                <p class="cinza">O que achou da qualidade da comida?</p>
-                <div class="card">Bom</div>
-                <div class="card">Regular</div>
-                <div class="card">Ruim</div>
-                <div class="card">Péssimo</div>
-                
-                <h3>Adicionais</h3>
-                <p class="cinza">Tem algo que você gostaria de adicionar ou melhorar?</p>
-                <div class="card">Falta de tempero</div>
-                <div class="card">Muito quente</div>
-                <div class="card">Muito frio</div>
-                <div class="card">Falta de variedade</div>
-                <div class="card">Falta de opções vegetarianas</div>
-                <div class="card">Falta de acompanhamentos
-                    <span class="cinza"> (sucos e/ou frutas)</span>
-                </div>Há também um campo para sugestões adicionais:
-                <input type="text" id="outro" name="sugestao">
-        </div>
-        <button type="submit" onclick="enviarForm()">Enviar Feedback</button>
-    </section>
+    <h3>Tempo de espera</h3>
+<p class="cinza">Qual foi o tempo de espera?</p>
+
+<label><input type="radio" name="espera" value="Bom"> Bom</label>
+<label><input type="radio" name="espera" value="Regular"> Regular</label>
+<label><input type="radio" name="espera" value="Ruim"> Ruim</label>
+<label><input type="radio" name="espera" value="Péssimo"> Péssimo</label>
+
+<h3>Qualidade</h3>
+<p class="cinza">O que achou da qualidade da comida?</p>
+
+<label><input type="radio" name="qualidade" value="Bom"> Bom</label>
+<label><input type="radio" name="qualidade" value="Regular"> Regular</label>
+<label><input type="radio" name="qualidade" value="Ruim"> Ruim</label>
+<label><input type="radio" name="qualidade" value="Péssimo"> Péssimo</label>
+
+<h3>Adicionais</h3>
+<p class="cinza">Tem algo que você gostaria de adicionar ou melhorar?</p>
+
+<label><input type="checkbox" name="adicionais" value="Falta de tempero"> Falta de tempero</label>
+<label><input type="checkbox" name="adicionais" value="Muito quente"> Muito quente</label>
+<label><input type="checkbox" name="adicionais" value="Muito frio"> Muito frio</label>
+<label><input type="checkbox" name="adicionais" value="Falta de variedade"> Falta de variedade</label>
+<label><input type="checkbox" name="adicionais" value="Falta de opções vegetarianas"> Falta de opções vegetarianas</label>
+<label><input type="checkbox" name="adicionais" value="Falta de acompanhamentos"> Falta de acompanhamentos (sucos e/ou frutas)</label>
+
+<p class="cinza">Sugestões adicionais:</p>
+<input type="text" id="outro" placeholder="Digite sua sugestão">
 
     <!-- Atualizações? -->
     <p class="opiniao">Obrigado por compartilhar sua opinião!</p>
@@ -106,7 +99,7 @@
     <script src="/js/script.js"></script>
     <!-- Rodapé -->
     <footer>
-    <p>Desenvolvido por:<a href="https://github.com/seuusuario" target="_blank">Future Devs</a></p>
+    <p>Desenvolvido por:<a href="https://github.com/eduardadev-creations/fectec" target="_blank">Future Devs</a></p>
     </footer>
 </body>
 </html>
