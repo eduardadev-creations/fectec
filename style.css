@@ -133,7 +133,7 @@ label:hover{
 
 input[type="radio"],
 input[type="checkbox"]{
-    margin-right:none;
+    display:none;
 }
 
 #outro{
