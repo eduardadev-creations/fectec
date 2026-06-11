@@ -61,35 +61,82 @@
     </section>
 
 
-    <!-- Feedback a-->
+    <!-- Feedback -->
+
+<section id="feedback">
+
+    <h2>Avalie a refeição</h2>
+
     <h3>Tempo de espera</h3>
-<p class="cinza">Qual foi o tempo de espera?</p>
+    <p class="cinza">Qual foi o tempo de espera?</p>
 
-<label><input type="radio" name="espera" value="Bom"> Bom</label>
-<label><input type="radio" name="espera" value="Regular"> Regular</label>
-<label><input type="radio" name="espera" value="Ruim"> Ruim</label>
-<label><input type="radio" name="espera" value="Péssimo"> Péssimo</label>
+    <input type="radio" id="espera-bom" name="espera" value="Bom">
+    <label for="espera-bom">Bom</label>
 
-<h3>Qualidade</h3>
-<p class="cinza">O que achou da qualidade da comida?</p>
+    <input type="radio" id="espera-regular" name="espera" value="Regular">
+    <label for="espera-regular">Regular</label>
 
-<label><input type="radio" name="qualidade" value="Bom"> Bom</label>
-<label><input type="radio" name="qualidade" value="Regular"> Regular</label>
-<label><input type="radio" name="qualidade" value="Ruim"> Ruim</label>
-<label><input type="radio" name="qualidade" value="Péssimo"> Péssimo</label>
+    <input type="radio" id="espera-ruim" name="espera" value="Ruim">
+    <label for="espera-ruim">Ruim</label>
 
-<h3>Adicionais</h3>
-<p class="cinza">Tem algo que você gostaria de adicionar ou melhorar?</p>
+    <input type="radio" id="espera-pessimo" name="espera" value="Péssimo">
+    <label for="espera-pessimo">Péssimo</label>
 
-<label><input type="checkbox" name="adicionais" value="Falta de tempero"> Falta de tempero</label>
-<label><input type="checkbox" name="adicionais" value="Muito quente"> Muito quente</label>
-<label><input type="checkbox" name="adicionais" value="Muito frio"> Muito frio</label>
-<label><input type="checkbox" name="adicionais" value="Falta de variedade"> Falta de variedade</label>
-<label><input type="checkbox" name="adicionais" value="Falta de opções vegetarianas"> Falta de opções vegetarianas</label>
-<label><input type="checkbox" name="adicionais" value="Falta de acompanhamentos"> Falta de acompanhamentos (sucos e/ou frutas)</label>
 
-<p class="cinza">Sugestões adicionais:</p>
-<input type="text" id="outro" placeholder="Digite sua sugestão">
+    <h3>Qualidade</h3>
+    <p class="cinza">O que achou da qualidade da comida?</p>
+
+    <input type="radio" id="qualidade-bom" name="qualidade" value="Bom">
+    <label for="qualidade-bom">Bom</label>
+
+    <input type="radio" id="qualidade-regular" name="qualidade" value="Regular">
+    <label for="qualidade-regular">Regular</label>
+
+    <input type="radio" id="qualidade-ruim" name="qualidade" value="Ruim">
+    <label for="qualidade-ruim">Ruim</label>
+
+    <input type="radio" id="qualidade-pessimo" name="qualidade" value="Péssimo">
+    <label for="qualidade-pessimo">Péssimo</label>
+
+
+    <h3>Adicionais</h3>
+    <p class="cinza">
+        Tem algo que você gostaria de adicionar ou melhorar?
+    </p>
+
+    <input type="checkbox" id="tempero" name="adicionais" value="Falta de tempero">
+    <label for="tempero">Falta de tempero</label>
+
+    <input type="checkbox" id="quente" name="adicionais" value="Muito quente">
+    <label for="quente">Muito quente</label>
+
+    <input type="checkbox" id="frio" name="adicionais" value="Muito frio">
+    <label for="frio">Muito frio</label>
+
+    <input type="checkbox" id="variedade" name="adicionais" value="Falta de variedade">
+    <label for="variedade">Falta de variedade</label>
+
+    <input type="checkbox" id="vegetariano" name="adicionais" value="Falta de opções vegetarianas">
+    <label for="vegetariano">Falta de opções vegetarianas</label>
+
+    <input type="checkbox" id="acompanhamentos" name="adicionais" value="Falta de acompanhamentos">
+    <label for="acompanhamentos">
+        Falta de acompanhamentos (sucos e/ou frutas)
+    </label>
+
+    <h3>Sugestões adicionais</h3>
+
+    <input
+        type="text"
+        id="outro"
+        placeholder="Digite sua sugestão..."
+    >
+
+    <button type="button">
+        Enviar Feedback
+    </button>
+
+</section>
 
     <!-- Atualizações? -->
     <p class="opiniao">Obrigado por compartilhar sua opinião!</p>
