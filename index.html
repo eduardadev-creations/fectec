@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e navegação -->
+    <div class="cabeca">
+        <header>
+            <h1>Cardápio MCVM</h1>
+            <p>Bem vindo ao cardápio escolar!</p>
+        </header>
+        <!--<nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>-->
+    </div>
+
+    <!--Banner-->
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfNIAt24HzLALy9ftWAGODC_LZi6EV3XOSVJjvcgNNT4Ux-sNLsUA9bo5BBJFLyLe06XPO_nwL4wcgvwqOcIb01DnaDNPAYLPLTKUl19GgFec_w7ZB8lEeKmrt9BmZBoZ6XnvaCRq_2fI/w1200-h630-p-k-no-nu/DSC06812.JPG" alt="Banner do cardápio" class="banner">
+
+     <!-- Cardápio -->
+        <section>
+            <h1 class="diaSemana"></h1>
+            <ul class="card-list">
+            <!-- Card 1 -->
+                <li class="card-item">
+                    <a href="#feedback" class="card-link js-card-link">
+                        <img src="" alt="Prato 1" class="card-img js-card-img">
+                        <div class="card-body">
+                            <h3 class="card-title js-card-title">Carregando...</h3>
+                        </div>
+                    </a>
+                </li>
+            <!-- Card 2 -->
+                <li class="card-item">
+                    <a href="#feedback" class="card-link js-card-link">
+                        <img src="" alt="Prato 2" class="card-img js-card-img">
+                        <div class="card-body">
+                            <h3 class="card-title js-card-title">Carregando...</h3>
+                        </div>
+                    </a>
+                </li>
+            <!-- Card 3 -->
+            <li class="card-item">
+                <a href="#feedback" class="card-link js-card-link">
+                    <img src="" alt="Prato 3" class="card-img js-card-img">
+                    <div class="card-body">
+                    <h3 class="card-title js-card-title">Carregando...</h3>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Feedback a-->
+    <section>
+        <a href="#feedback">Deixe seu feedback...</a>
+    </section>
+    <!-- Página do feedback-->
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <div class="cards">
+                <h3>Tempo de espera</h3>
+                <p class="cinza">Qual foi o tempo de espera?</p>
+                <div class="card">Bom</div>
+                <div class="card">Regular</div>
+                <div class="card">Ruim</div>
+                <div class="card">Péssimo</div>
+            
+                <h3>Qualidade</h3>
+                <p class="cinza">O que achou da qualidade da comida?</p>
+                <div class="card">Bom</div>
+                <div class="card">Regular</div>
+                <div class="card">Ruim</div>
+                <div class="card">Péssimo</div>
+                
+                <h3>Adicionais</h3>
+                <p class="cinza">Tem algo que você gostaria de adicionar ou melhorar?</p>
+                <div class="card">Falta de tempero</div>
+                <div class="card">Muito quente</div>
+                <div class="card">Muito frio</div>
+                <div class="card">Falta de variedade</div>
+                <div class="card">Falta de opções vegetarianas</div>
+                <div class="card">Falta de acompanhamentos
+                    <span class="cinza"> (sucos e/ou frutas)</span>
+                </div>Há também um campo para sugestões adicionais:
+                <input type="text" id="outro" name="sugestao">
+        </div>
+        <button type="submit" onclick="enviarForm()">Enviar Feedback</button>
+    </section>
+
+    <!-- Atualizações? -->
+    <p class="opiniao">Obrigado por compartilhar sua opinião!</p>
+
+    <!--Fim😒-->
+
+    <script src="/js/script.js"></script>
+    <!-- Rodapé -->
+    <footer>
+    <p>Desenvolvido por:<a href="https://github.com/seuusuario" target="_blank">Future Devs</a></p>
+    </footer>
+</body>
+</html>
