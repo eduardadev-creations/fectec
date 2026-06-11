@@ -7,85 +7,85 @@ const cardapioSemana13 = {
     segunda: {
         merenda: {
             nome: "Cuscuz com carne moída e café com leite",
-            foto: "/img/cuscuzcarne.jpg"
+            foto: "img/cuscuzcarne.jpg"
         },
 
         almoco: {
             nome: "Filé de frango acebolado",
-            foto: "/img/frangoacebolado.jpg"
+            foto: "img/frangoacebolado.jpg"
         },
 
         lanche: {
             nome: "Pão de massa fina com ovo e vitamina de goiaba",
-            foto: "/img/paoovo.jpg"
+            foto: "img/paoovo.jpg"
         }
     },
 
     terca: {
         merenda: {
             nome: "Canja de frango e pão",
-            foto: "/img/canjafrango.jpg"
+            foto: "img/canjafrango.jpg"
         },
 
         almoco: {
             nome: "1ª Opção: Lombo suíno ao molho | 2ª Opção: Omelete de carne moída",
-            foto: "/img/lombosuino.jpg"
+            foto: "img/lombosuino.jpg"
         },
 
         lanche: {
             nome: "Tapioca com frango, café com leite e melão",
-            foto: "/img/tapiocafrango.jpg"
+            foto: "img/tapiocafrango.jpg"
         }
     },
 
     quarta: {
         merenda: {
             nome: "Bolo fofo e café com leite",
-            foto: "/img/bolofo.jpg"
+            foto: "img/bolofo.jpg"
         },
 
         almoco: {
             nome: "Picadinho de carne",
-            foto: "/img/picadinhocarne.jpg"
+            foto: "img/picadinhocarne.jpg"
         },
 
         lanche: {
             nome: "Maria Isabel com suco de caju",
-            foto: "/img/mariaisabel.jpg"
+            foto: "img/mariaisabel.jpg"
         }
     },
 
     quinta: {
         merenda: {
             nome: "Pão com patê de frango",
-            foto: "/img/paopate.jpg"
+            foto: "img/paopate.jpg"
         },
 
         almoco: {
             nome: "Iscas de frango ao molho",
-            foto: "/img/iscasfrango.jpg"
+            foto: "img/iscasfrango.jpg"
         },
 
         lanche: {
             nome: "Cuscuz com ovo e café com leite",
-            foto: "/img/cuscuzovo.jpg"
+            foto: "img/cuscuzovo.jpg"
         }
     },
 
     sexta: {
         merenda: {
             nome: "Cuscuz com frango desfiado e café com leite",
-            foto: "/img/cuscuzfrango.jpg"
+            foto: "img/cuscuzfrango.jpg"
         },
 
         almoco: {
             nome: "Suino acebolado (2º opção:filé de frango)",
-            foto: "/img/suinoacebolado.jpg"
+            foto: "img/suinoacebolado.jpg"
         },
 
         lanche: {
             nome: "Macarronada e suco de manga",
-            foto: "/img/macarronada.jpg"     
+            foto: "img/macarronada.jpg"     
     }
 };
 
