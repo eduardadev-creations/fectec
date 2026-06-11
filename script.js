@@ -47,7 +47,7 @@ const cardapioSemana13 = {
         almoco: {
             nome: "Picadinho de carne",
             foto: "/img/picadinhocarne.jpg"
-        };
+        },
 
         lanche: {
             nome: "Maria Isabel com suco de caju",
